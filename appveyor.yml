@@ -5,3 +5,7 @@ image: Ubuntu
 nuget:
   account_feed: true
   project_feed: true
+deploy:
+- provider: NuGet
+  api_key:
+    secure: IVkM4lfybkZ56Z5oTXNZ7uYVVawhqeDNO4nM8q97eK0=
